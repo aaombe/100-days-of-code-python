@@ -6,8 +6,8 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 
 
 ## 🔰 Beginner 
-- [Day 1:](#) Working with Variables in Python (BMI Calculator)
-- [Day 2:](https://#) Understanding Data Types and How to Manipulate Strings
+- [Day 1:](https://github.com/aaombe/100-days-of-code-python/blob/testing_branch/) Working with Variables in Python (BMI Calculator)
+- [Day 2:](https://github.com/aaombe/100-days-of-code-python/blob/testing_branch/DataAndStrManipulation) Understanding Data Types and How to Manipulate Strings
 - [Day 3:]() Control Flow and Logical Operators
 - [Day 4:]() Randomisation and Python Lists
 - [Day 5:](https://github.com/phillipai/100-days-of-code-python/tree/main/day05) Python Loops
