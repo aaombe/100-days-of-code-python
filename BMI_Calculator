@@ -1,0 +1,17 @@
+# Declare variables and assign values
+name = "John Doe"
+age = 30
+height = 1.75
+
+# Print the values of the variables
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+# Perform operations with variables
+birth_year = 2023 - age
+bmi = 75 / (height ** 2)
+
+# Print the results of the operations
+print("Birth Year:", birth_year)
+print("BMI:", bmi)
