@@ -1,0 +1,42 @@
+# Declare a string variable
+my_string = "Hello, World!"
+
+# Print the original string
+print("Original string:", my_string)
+
+# Accessing individual characters in a string
+first_char = my_string[0]
+print("First character:", first_char)
+
+# Concatenating strings
+greeting = "Hello"
+name = "John"
+message = greeting + ", " + name + "!"
+print("Greeting message:", message)
+
+# String length
+length = len(my_string)
+print("Length of the string:", length)
+
+# Changing case
+lowercase = my_string.lower()
+uppercase = my_string.upper()
+print("Lowercase string:", lowercase)
+print("Uppercase string:", uppercase)
+
+# Checking for substrings
+contains_hello = "Hello" in my_string
+contains_world = "World" in my_string
+print("Contains 'Hello':", contains_hello)
+print("Contains 'World':", contains_world)
+
+# Splitting and joining strings
+word_list = my_string.split(",")  # Splitting by comma
+print("List of words:", word_list)
+
+reconstructed_string = "-".join(word_list)  # Joining with a hyphen
+print("Reconstructed string:", reconstructed_string)
+
+# Replacing substrings
+replaced_string = my_string.replace("Hello", "Hi")
+print("Replaced string:", replaced_string)
