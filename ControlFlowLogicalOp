@@ -1,0 +1,41 @@
+# Variable declaration
+age = 25
+is_student = True
+
+# If statement
+if age < 18:
+    print("You are underage.")
+elif age >= 18 and age <= 25:
+    print("You are a young adult.")
+else:
+    print("You are an adult.")
+
+# Nested if statements
+if is_student:
+    if age < 18:
+        print("You are a student and underage.")
+    else:
+        print("You are a student and an adult.")
+else:
+    print("You are not a student.")
+
+# Logical operators
+num = 12
+
+# Logical AND
+if num > 0 and num % 2 == 0:
+    print("The number is positive and even.")
+
+# Logical OR
+if num < 0 or num % 2 != 0:
+    print("The number is either negative or odd.")
+
+# Logical NOT
+is_adult = False
+if not is_adult:
+    print("You are not an adult.")
+
+# Ternary operator
+is_adult = True
+message = "You are an adult." if is_adult else "You are not an adult."
+print(message)
